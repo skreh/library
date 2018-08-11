@@ -1,0 +1,21 @@
+{
+    "name": "skreh/library",
+    "description": "skreh library",
+    "type": "library",
+    "require": {
+        "php": "^7.2"
+    },
+    "license": "mit",
+    "authors": [
+        {
+            "name": "skreh",
+            "email": "skreh@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Skreh\\Library\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}

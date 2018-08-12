@@ -1,21 +1,20 @@
 {
     "name": "skreh/library",
-    "description": "skreh library",
+    "description": "library that only on base php's functions",
     "type": "library",
-    "require": {
-        "php": "^7.2"
-    },
-    "license": "mit",
     "authors": [
         {
             "name": "skreh",
             "email": "skreh@qq.com"
         }
     ],
+    "license": "proprietary",
+    "require": {
+        "php": "^7.2"
+    },
     "autoload": {
         "psr-4": {
             "Skreh\\Library\\": "src/"
         }
-    },
-    "minimum-stability": "stable"
+    }
 }

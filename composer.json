@@ -16,5 +16,6 @@
         "psr-4": {
             "Skreh\\Library\\": "src/"
         }
-    }
+    },
+    "minimum-stability": "dev",
 }
